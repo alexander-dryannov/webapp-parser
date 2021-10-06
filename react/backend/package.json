@@ -1,0 +1,18 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm .",
+    "dev": "nodemon -r esm",
+    "test-get": "node -r esm file.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.1.1",
+    "apollo-server-express": "^3.3.0",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^15.6.0",
+    "nodemon": "^2.0.13",
+    "prisma": "^3.1.1"
+  }
+}
