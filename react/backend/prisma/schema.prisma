@@ -7,38 +7,38 @@ generator client {
   provider = "prisma-client-js"
 }
 
-// model Aerodar {
-//   id String @id @default(cuid())
-//   departure String
-//   appointment String
-//   AK String
-//   cost String
-// }
-// model Aerosib {
-//   id String @id @default(cuid())
-//   departure String
-//   appointment String
-//   AK String
-//   cost String
-// }
-// model Artis {
-//   id String @id @default(cuid())
-//   departure String
-//   appointment String
-//   AK String
-//   cost String
-// }
-// model Mdcargo {
-//   id String @id @default(cuid())
-//   departure String
-//   appointment String
-//   AK String
-//   cost String
-// }
-// model Transcomavia {
-//   id String @id @default(cuid())
-//   departure String
-//   appointment String
-//   AK String
-//   cost String
-// }
+model Aerodar {
+  id String @id @default(cuid())
+  departure String
+  appointment String
+  AK String
+  cost String
+}
+model Aerosib {
+  id String @id @default(cuid())
+  departure String
+  appointment String
+  AK String
+  cost String
+}
+model Artis {
+  id String @id @default(cuid())
+  departure String
+  appointment String
+  AK String
+  cost String
+}
+model Mdcargo {
+  id String @id @default(cuid())
+  departure String
+  appointment String
+  AK String
+  cost String
+}
+model Transcomavia {
+  id String @id @default(cuid())
+  departure String
+  appointment String
+  AK String
+  cost String
+}

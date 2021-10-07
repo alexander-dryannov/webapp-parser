@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup as bs
 class Parser:
     def __init__(self) -> None:
         self.current_wd = os.getcwd()
-        self.database_directory = "/".join(self.current_wd.split("/")[0:-1]) + "/db"
+        self.database_directory = "/".join(self.current_wd.split("/")[0:-1]) + "/react/backend/db"
         self.database_name = "price"
         self.p1 = {"Aerosib": []}
         self.p2 = {"Aerodar": []}
@@ -67,6 +67,7 @@ class Parser:
     
     # Создание директории для БД
     def create_directory(self):
+        print(self.current_wd)
         try:
             os.mkdir(self.database_directory)
         except FileExistsError:
